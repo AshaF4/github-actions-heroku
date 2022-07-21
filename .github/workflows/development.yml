@@ -1,10 +1,10 @@
 name: Development workflow
 
 on:
-  pull_request:
-    branches: 
-     - develop
   push:
+    branches: 
+     - test
+  pull_request:
     branches:
       - develop
 
